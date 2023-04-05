@@ -21,10 +21,11 @@ export default class Profile  extends React.Component {
             age:''
         })
     }
-    render() {
+    render(props) {
         return (
              <div>
-                <h1>---- Taaha      P R A C T I C E ----</h1>
+                
+                <h1>----S T A T E       P R A C T I C E ----</h1>
                 <h4>
                     Name: {this.state.name}
                 </h4>
